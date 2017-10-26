@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editPrinterID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/enter_printer_id"
+            android:inputType="textNoSuggestions"
+            android:selectAllOnFocus="true"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editMacAddr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/enter_mac_address"
+            android:inputType="textNoSuggestions"
+            android:selectAllOnFocus="true"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editUserText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="@string/enter_opt_text"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayoutInput"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/print"
+        android:textStyle="bold" />
+
+    <!--<Button-->
+    <!--android:id="@+id/buttonSign"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/linearLayoutInput"-->
+    <!--android:layout_toRightOf="@+id/buttonPrint"-->
+    <!--android:layout_alignBottom="@+id/buttonPrint"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:paddingLeft="20dp"-->
+    <!--android:paddingRight="20dp"-->
+    <!--android:text="@string/sign"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgSignature"-->
+    <!--android:layout_width="120dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_below="@+id/linearLayoutInput"-->
+    <!--android:layout_toRightOf="@+id/buttonSign"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:contentDescription="@string/signature_imageview_desc" />-->
+
+    <TextView
+        android:id="@+id/textProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonPrint"
+        android:layout_marginTop="10dp"
+        android:text="@string/ProgressStatus"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textProgress"
+        android:layout_marginTop="10dp"
+        android:background="#AFEEEE"
+        android:gravity="top|left"
+        android:lines="10"
+        android:textIsSelectable="true"
+        android:textSize="18sp" />
+
+</RelativeLayout>

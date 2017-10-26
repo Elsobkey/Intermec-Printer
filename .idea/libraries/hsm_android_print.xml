@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hsm-android-print">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/hsm-android-print.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

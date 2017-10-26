@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="intermecarabic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/intermecarabic.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

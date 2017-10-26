@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\libs\intermecarabic.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7085b3628332e6cb1a01da39f85074947d116117">
+        <dex dex="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\transforms\dex\debug\folders\1000\2\intermecarabic_7949b0b1aa7991dca663347700d40b47535b61b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="146d6a12cb2f1b8da22da0015b2dec675c5ae694">
+        <dex dex="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_10c949091667f96093be09efaa02b4b648940f1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\libs\hsm-android-print.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd86769f5260c1e31213023fd87e980497d6f247">
+        <dex dex="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\pre-dexed\debug\hsm-android-print_a816517a2aaa7af39a7f3800ceec60fcc112f510.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\libs\intermecarabic.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7085b3628332e6cb1a01da39f85074947d116117">
+        <dex dex="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\pre-dexed\debug\intermecarabic_7949b0b1aa7991dca663347700d40b47535b61b9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\libs\hsm-android-print.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd86769f5260c1e31213023fd87e980497d6f247">
+        <dex dex="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\transforms\dex\debug\folders\1000\2\hsm-android-print_a816517a2aaa7af39a7f3800ceec60fcc112f510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ab00775e15661e8cf77d59ab843d645ee70ceeac\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LinePrinterSample</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- PrintActivity resources -->
+    <string name="print">Print</string>
+    <string name="sign">Sign</string>
+    <string name="ProgressStatus">Progress and Status</string>
+    <string name="enter_printer_id">Enter a Printer ID</string>
+    <string name="enter_mac_address">Enter a MAC address</string>
+    <string name="enter_opt_text">Enter optional text to print</string>
+    <string name="signature_imageview_desc">Signature image</string>
+
+    <!-- CaptureSignatureActivity resources -->
+    <string name="title_activity_capture_signature">CaptureSignatureActivity</string>
+    <string name="sign_below">Sign below</string>
+    <string name="button_save">Save</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="str_bessem_allah">بسم الله الرحمن الرحيم</string>
+
+</resources>
