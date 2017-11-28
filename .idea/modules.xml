@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Intermec.iml" filepath="$PROJECT_DIR$/Intermec.iml" />
+      <module fileurl="file://D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\Intermec.iml" filepath="D:\AndroidStudioProjects\IntermecPrintersProjects\IntermecPrinterSample\Intermec.iml" />
       <module fileurl="file://$PROJECT_DIR$/IntermecPrinterSample.iml" filepath="$PROJECT_DIR$/IntermecPrinterSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
