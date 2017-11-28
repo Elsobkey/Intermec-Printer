@@ -2,11 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-<<<<<<< HEAD
-    buildToolsVersion "25.0.3"
-=======
     buildToolsVersion '26.0.2'
->>>>>>> fc2c234cf114fe59c467207acac06880883e6a66
     defaultConfig {
         applicationId "com.example.ahmedelsobky.intermecprinterandroid"
         minSdkVersion 15
